@@ -33,8 +33,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Servir archivos estáticos del frontend en producción
+// Busca primero en public/ (en E:\DiskPanel), luego en frontend/dist (desarrollo)
+const publicPath = path.join(__dirname, '../../public');
 const frontendDistPath = path.join(__dirname, '../../frontend/dist');
-app.use(express.static(frontendDistPath));
+const staticPath = require('fs').existsSync(publicPath) ? publicPath : frontendDistPath;
+app.use(express.static(staticPath));
+logger.info(`Sirviendo archivos estáticos desde: ${staticPath}`);
 
 // Routes
 app.use('/api/auth', authRoutes);
@@ -43,7 +47,7 @@ app.use('/api/files', filesRoutes);
 
 // Servir index.html para rutas no encontradas (SPA)
 app.get('*', (req, res) => {
-  const indexPath = path.join(frontendDistPath, 'index.html');
+  const indexPath = path.join(staticPath, 'index.html');
   res.sendFile(indexPath, (err) => {
     if (err) {
       res.status(404).json({ error: req.t ? req.t('error.not_found') : 'Not found' });
