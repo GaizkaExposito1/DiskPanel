@@ -1,0 +1,83 @@
+{
+  "app": { "title": "Panel de administración de archivos" },
+  "login": { 
+    "title": "Acceso", 
+    "username": "Usuario", 
+    "password": "Contraseña", 
+    "submit": "Entrar" 
+  },
+  "auth": { "logout": "Cerrar sesión" },
+  "disks": { 
+    "title": "Discos",
+    "loading": "Cargando discos...",
+    "no_disks": "No se encontraron discos",
+    "refresh": "Actualizar",
+    "expand": "Expandir",
+    "collapse": "Contraer"
+  },
+  "disk": {
+    "storage": "Espacio en disco",
+    "used": "Usado",
+    "free": "Libre",
+    "total": "Total"
+  },
+  "dashboard": { 
+    "select_disk": "Selecciona un disco para explorar",
+    "select_disk_hint": "Haz clic en un disco de la lista lateral para comenzar",
+    "go_home": "Ir al inicio"
+  },
+  "file": { 
+    "upload": "Subir",
+    "upload_file": "Subir archivo",
+    "uploading": "Subiendo...",
+    "upload_success": "Archivo subido correctamente",
+    "new_folder": "Nueva carpeta",
+    "folder_name": "Nombre de la carpeta",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "rename": "Renombrar",
+    "download": "Descargar",
+    "refresh": "Actualizar",
+    "loading": "Cargando...",
+    "empty_folder": "Carpeta vacía",
+    "upload_or_create": "Sube archivos o crea una nueva carpeta",
+    "confirm_delete": "¿Estás seguro de eliminar {name}?",
+    "root": "Raíz",
+    "back": "Atrás"
+  },
+  "navigator": {
+    "quick_nav": "Ir a...",
+    "title": "Navegación rápida",
+    "hint": "Introduce la ruta a la que quieres ir (ej: Documents, miapp_storage, DashboardApp/proyecto-root)",
+    "placeholder": "Escribe la ruta...",
+    "examples": "Ejemplos",
+    "go": "Ir"
+  },
+  "summary": {
+    "title": "Resumen Global de Almacenamiento",
+    "total_capacity": "Capacidad Total",
+    "used_space": "Espacio Usado",
+    "free_space": "Espacio Libre",
+    "disk_count": "Número de Discos",
+    "disk_details": "Detalles por Disco",
+    "used": "usado",
+    "free": "libre",
+    "total": "total",
+    "auto_refresh": "Actualización automática",
+    "last_update": "Última actualización",
+    "click_to_explore": "Haz clic para explorar este disco"
+  },
+  "error": {
+    "upload_failed": "Error al subir el archivo",
+    "delete_failed": "Error al eliminar",
+    "rename_failed": "Error al renombrar",
+    "mkdir_failed": "Error al crear carpeta",
+    "disk_full": "El disco está casi lleno (95% o más). No se pueden subir archivos por seguridad."
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "error": {
+    "not_found": "Resource not found",
+    "internal": "Internal server error",
+    "missing_credentials": "Missing credentials",
+    "invalid_credentials": "Invalid credentials",
+    "list_disks_failed": "Failed to list disks",
+    "invalid_path": "Invalid path or outside allowed directory",
+    "invalid_extension": "File extension not allowed",
+    "missing_params": "Missing required parameters",
+    "disk_full": "The disk is almost full (95% or more). Cannot upload files for security reasons.",
+    "upload_disabled_at_root": "Uploads are not allowed at the C: root. Please enter a folder like Desktop, Documents, etc.",
+    "folder_not_empty": "Cannot delete the folder because it contains files or folders. Please empty it first."
+  },
+  "auth": {
+    "login_success": "Login successful"
+  },
+  "file": {
+    "upload_success": "File uploaded successfully",
+    "mkdir_success": "Folder created",
+    "rename_success": "Renamed successfully",
+    "delete_success": "Deleted successfully"
+  }
+}

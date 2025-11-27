@@ -1,0 +1,82 @@
+{
+  "app": { "title": "File Admin Panel" },
+  "login": { 
+    "title": "Login", 
+    "username": "Username", 
+    "password": "Password", 
+    "submit": "Login" 
+  },
+  "auth": { "logout": "Logout" },
+  "disks": { 
+    "title": "Disks",
+    "loading": "Loading disks...",
+    "no_disks": "No disks found",
+    "refresh": "Refresh",
+    "expand": "Expand",
+    "collapse": "Collapse"
+  },
+  "disk": {
+    "storage": "Disk Storage",
+    "used": "Used",
+    "free": "Free",
+    "total": "Total"
+  },
+  "dashboard": { 
+    "select_disk": "Select a disk to explore",
+    "select_disk_hint": "Click a disk from the sidebar to start",
+    "go_home": "Go to home"
+  },
+  "file": { 
+    "upload": "Upload",
+    "upload_file": "Upload file",
+    "uploading": "Uploading...",
+    "upload_success": "File uploaded successfully",
+    "new_folder": "New folder",
+    "folder_name": "Folder name",
+    "create": "Create",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "rename": "Rename",
+    "download": "Download",
+    "refresh": "Refresh",
+    "loading": "Loading...",
+    "empty_folder": "Empty folder",
+    "upload_or_create": "Upload files or create a new folder",
+    "confirm_delete": "Are you sure you want to delete {name}?",
+    "root": "Root",
+    "back": "Back"
+  },
+  "navigator": {
+    "quick_nav": "Go to...",
+    "title": "Quick Navigation",
+    "hint": "Enter the path you want to navigate to (e.g., Documents, miapp_storage, DashboardApp/proyecto-root)",
+    "placeholder": "Type path...",
+    "examples": "Examples",
+    "go": "Go"
+  },
+  "summary": {
+    "title": "Global Storage Summary",
+    "total_capacity": "Total Capacity",
+    "used_space": "Used Space",
+    "free_space": "Free Space",
+    "disk_count": "Number of Disks",
+    "disk_details": "Disk Details",
+    "used": "used",
+    "free": "free",
+    "total": "total",
+    "auto_refresh": "Auto-refresh",
+    "last_update": "Last update"
+  },
+  "error": {
+    "upload_failed": "Failed to upload file",
+    "delete_failed": "Failed to delete",
+    "rename_failed": "Failed to rename",
+    "mkdir_failed": "Failed to create folder",
+    "disk_full": "The disk is almost full (95% or more). Cannot upload files for security reasons."
+  },
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete"
+  }
+}

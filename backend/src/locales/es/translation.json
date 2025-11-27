@@ -1,0 +1,24 @@
+{
+  "error": {
+    "not_found": "Recurso no encontrado",
+    "internal": "Error interno del servidor",
+    "missing_credentials": "Faltan credenciales",
+    "invalid_credentials": "Credenciales inválidas",
+    "list_disks_failed": "No se pudo listar los discos",
+    "invalid_path": "Ruta inválida o fuera del directorio permitido",
+    "invalid_extension": "Extensión de fichero no permitida",
+    "missing_params": "Faltan parámetros requeridos",
+    "disk_full": "El disco está casi lleno (95% o más). No se pueden subir archivos por seguridad.",
+    "upload_disabled_at_root": "No se permiten subidas en la raíz de C:. Por favor, entra en una carpeta como Desktop, Documentos, etc.",
+    "folder_not_empty": "No se puede eliminar la carpeta porque contiene archivos o carpetas. Por favor vacíala primero."
+  },
+  "auth": {
+    "login_success": "Inicio de sesión correcto"
+  },
+  "file": {
+    "upload_success": "Fichero subido correctamente",
+    "mkdir_success": "Carpeta creada",
+    "rename_success": "Renombrado correctamente",
+    "delete_success": "Eliminado correctamente"
+  }
+}
